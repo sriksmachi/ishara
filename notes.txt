@@ -1,0 +1,8 @@
+num_batches = 663//30 = 23
+
+batch dimensions 
+      batch * image * x * y * channel
+[0] = 30 * 30 * 120 * 120 * 3
+[1] = 30 * 5 (one hot encoded)
+
+what is steps per epoch?

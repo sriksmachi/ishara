@@ -1,3 +1,4 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "ai.azureml.defaultWorkspaceId": "/subscriptions/925a5ad8-a21a-48c0-92a2-5a8a2a4dfc46/resourceGroups/machinelearning-workbench/providers/Microsoft.MachineLearningServices/workspaces/sriks-azureml"
 }
