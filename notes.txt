@@ -1,3 +1,8 @@
+
+
+
+Rough Notes
+------------
 num_batches = 663//30 = 23
 
 batch dimensions 
@@ -6,3 +11,5 @@ batch dimensions
 [1] = 30 * 5 (one hot encoded)
 
 what is steps per epoch?
+- Steps per echo is calculated as 
+

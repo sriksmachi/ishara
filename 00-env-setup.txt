@@ -1,0 +1,9 @@
+## Create Conda environment
+
+conda create -n aml python=3.8 --y
+
+## activate conda environment 
+conda activate aml
+
+## Install Azure ML SDK
+pip install azureml-sdk
