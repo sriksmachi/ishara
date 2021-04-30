@@ -1,15 +1,33 @@
+full experiment drop outs only without augmentation
+
+#Experiment Parameters
+ablation_size=None
+batch_size=30
+num_epochs=10
+dim=(120,120)
+samples=20
+
+training accuracy = 49%,val accuracy is 55%
+The model is not learning, slow inc. in accuracy observed
+augmentatin has no impact, which means its not incorrect as well
+training time 100s
+
+without dropouts full experiment, without augmentation
+same parameters as above, ta = 60, va = 53
+
+without dropouts full experiment, with augmentation
+the model is not learnng ta = 51 and va = 49
+
+exponential decay introduced, loss increased - need to revisit if this is applied correctly
+
+reduced one layer, ta = 65 va = 46 the model is still learning netter
+
+20 epochs - ta = 79, va = 60 (early stopping at 18)
+
+reintroduced 4th layer, included dropouts, ran the same experiment above with 15 epochs, 30 samples, TA 48, VA 50 - MODEL NOT LEARNING
+
+increased dense layer to 256
 
 
 
-Rough Notes
-------------
-num_batches = 663//30 = 23
-
-batch dimensions 
-      batch * image * x * y * channel
-[0] = 30 * 30 * 120 * 120 * 3
-[1] = 30 * 5 (one hot encoded)
-
-what is steps per epoch?
-- Steps per echo is calculated as 
 
