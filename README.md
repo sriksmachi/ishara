@@ -107,3 +107,5 @@ The parameters that are chosen for choosing the best model are – accuracy and 
 The below image shows the final prediction made on a batch randomly picked from validation data set. 
 
 ![finalprediction](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.005.png)
+
+The trained models can be download from [here](https://drive.google.com/drive/folders/1TsfRqOZoMKhtYYkK1AVImmnGnmvYT4tB?usp=sharing)
