@@ -107,7 +107,7 @@ Description automatically generated with low confidence](Aspose.Words.bc9f3994-0
 
 ![Text
 
-Description automatically generated](Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.004.png)
+Description automatically generated](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.004.png)
 ## Predictions using the best model. 
 
 The below image shows the final prediction made on a batch randomly picked from validation data set. 
