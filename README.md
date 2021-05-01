@@ -39,7 +39,7 @@ Experiments are conducted in 3 stages, for each configuration of the model, once
 
 3 D convolution is one of the deep learning architectures that can be used here, it is a natural extension to 2D convolution. In a 2D convolution each filter concentrations on a particular region of the image and generates features, these features used by the next layers to create higher level abstractions. In 3D convolution the same concept is applied, but instead to a batch of images. The below image explains the idea graphically. 
 
-![3D Convolutions : Understanding + Use Case | Kaggle](Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.001.png)
+![3D Convolutions : Understanding + Use Case | Kaggle](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.001.png)
 
 (Image source - https://www.mdpi.com/2072-4292/9/11/1139/htm)
 
@@ -93,25 +93,17 @@ The parameters that are chosen for choosing the best model are – accuracy and 
 
 1. Traditional CNN Model + GRU model with 95% accuracy. The size of this file is around 200 MB which is compartively higher than the second best below which is 20 MB. But here I'm assuming 200 MB is Ok since the current generation SMART TVs have atleast 1 GB RAM and 8GB hard disk space. Source: https://techpenny.com/smart-tvs-and-storage-facts-solved/#:~:text=Often%2C%20their%20storage%20is%20comparable,goes%20to%20the%20system%20files.
 
-![Text
-
-Description automatically generated with low confidence](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.002.png)
+![firstbestmodel](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.002.png)
 
 1. 3D conv model with 92 % accuracy, # of parameters = 1,760,741, file size 20 MB
 
-![Table
-
-Description automatically generated with low confidence](Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.003.png)
+![secondbestmodel](Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.003.png)
 
 1. Mobile Net + GRU – 87% accuracy, # of parameters = 3,453,877
 
-![Text
-
-Description automatically generated](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.004.png)
+![3rdbesmodel](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.004.png)
 ## Predictions using the best model. 
 
 The below image shows the final prediction made on a batch randomly picked from validation data set. 
 
-![Graphical user interface, text, application
-
-Description automatically generated](https://github.com/sriksmachi/ishara/blob/main/images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.005.png)
+![finalprediction](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.005.png)
