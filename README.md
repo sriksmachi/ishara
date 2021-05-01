@@ -1,4 +1,4 @@
-﻿Gesture Recognition
+# Gesture Recognition
 # Problem Statement
 A home electronics company which manufactures state of the art smart televisions, wants to develop a cool feature for a smart TV which is to recognize 5 different hand gestures which helps users control the TV without remote control. 
 
@@ -114,4 +114,4 @@ The below image shows the final prediction made on a batch randomly picked from 
 
 ![Graphical user interface, text, application
 
-Description automatically generated](Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.005.png)
+Description automatically generated](https://github.com/sriksmachi/ishara/blob/main/images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.005.png)
