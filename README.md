@@ -95,11 +95,11 @@ The parameters that are chosen for choosing the best model are – accuracy and 
 
 ![firstbestmodel](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.002.png)
 
-1. 3D conv model with 92 % accuracy, # of parameters = 1,760,741, file size 20 MB
+2. 3D conv model with 92 % accuracy, # of parameters = 1,760,741, file size 20 MB
 
-![secondbestmodel](Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.003.png)
+![secondbestmodel](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.003.png)
 
-1. Mobile Net + GRU – 87% accuracy, # of parameters = 3,453,877
+3. Mobile Net + GRU – 87% accuracy, # of parameters = 3,453,877
 
 ![3rdbesmodel](images/Aspose.Words.bc9f3994-0b3b-496a-9dc1-70120bb2fd14.004.png)
 ## Predictions using the best model. 
