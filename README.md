@@ -19,7 +19,7 @@ Using simple machine learning techniques like logistic regression can only be us
 First let us look at some of the pre-processing techniques that are applicable to this project.
 # Pre-processing
 
-Preprocessing of data aligns with data oriented approached, systematically cleaning and augmenting the data based on the nature of the problem we are dealing with allow the model to learn better from the data, avoid learning noise and generalize better. Traditionally there are 2 types of transformations that can be applied to images linear transformations (crop, flip etc.) and affine transformations like rotate, transform. We cannot flip the images as the intent of the gesture changes with flip so we will use resize and crop for reduce the training time and affine transformations which is going to squeeze the image a little bit.
+Preprocessing of data aligns with data oriented approached, if you haven't yet watched Andrew NG's talk please watch [link](https://www.youtube.com/watch?v=06-AZXmwHjo). Systematically cleaning the data like assigning right labels and augmenting the data with more noisy samples (based on the nature of the problem we are dealing with) allows the model to learn better from the data exclude the noise and hence generalize better. Traditionally there are 2 types of transformations that can be applied to images linear transformations (crop, flip etc.) and affine transformations like rotate, transform. We cannot flip the images as the intent of the gesture changes with flip so we will use resize and crop for reduce the training time and affine transformations which is going to squeeze the image a little bit.
 
 In Summary, the pre-processing we apply per image are:  crop, resize and transform (conditionally)
 # Generators.
